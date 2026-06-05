@@ -21,7 +21,7 @@ model = load_model()
 
 st.title(" Student Mental Health & Burnout Detector")
 st.markdown("""
-**BCI3333 — MLA Final Assesment BY CA23108 FARIS WAZIRUL **  
+**BCI3333 — MLA Final Assesment BY CA23108 FARIS WAZIRUL KENCHANA **  
 Smart Campus | Student Well-being Early Detection System  
 *Predict depression risk based on academic and lifestyle factors.*
 """)
