@@ -7,7 +7,6 @@ import json
 
 st.set_page_config(
     page_title="Student Mental Health Detector",
-    page_icon="🧠",
     layout="centered"
 )
 
@@ -20,15 +19,15 @@ def load_model():
 model = load_model()
 
 
-st.title("🧠 Student Mental Health & Burnout Detector")
+st.title(" Student Mental Health & Burnout Detector")
 st.markdown("""
-**BCI3333 — Machine Learning Applications**  
+**BCI3333 — MLA Final Assesment BY CA23108 FARIS WAZIRUL **  
 Smart Campus | Student Well-being Early Detection System  
 *Predict depression risk based on academic and lifestyle factors.*
 """)
 st.divider()
 
-st.subheader("📋 Enter Student Information")
+st.subheader(" Enter Student Information")
 
 col1, col2 = st.columns(2)
 
